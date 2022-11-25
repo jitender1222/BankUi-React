@@ -11,13 +11,13 @@ const People = () => {
   return (
     <>
     <div className='flex flex-col md:flex-row gap-20 justify-evenly mt-20'>
-        <h2 className='md:w-[20%] text-3xl text-center'>What People are saying about us</h2>
-        <p className='text-gray-400 w-[30%]'>Everything you need to know about card payments and grow your business anywhere ont the planet</p>
+        <h2 className='sm: mb-[-50px] text-xl md:mb-[0] md:w-[30%] text-2xl text-center lg:text-4xl'>What People are saying about us</h2>
+        <p className='m-2 text-gray-400 md:w-[40%] md:m-0 lg:w-[20%]'>Everything you need to know about card payments 
+        and grow your business anywhere ont the planet</p>
     </div>
 
-    <div className='flex justify-center gap-8 mt-12 
-    '>
-        <div className=' w-[20%] p-8 bg-gradient-to-tr from-gray-600 rounded-sm'>
+    <div className='flex flex-col md:flex-row justify-center gap-8 mt-12 '>
+        <div className='m-2 p-4 md:w-[30%] bg-gradient-to-tr from-gray-600 rounded-sm'>
             <p>Money is only a tool. It will take you whereever you wish but it will not replace you as the driver.</p>
 
             <div className='flex mt-6'>
@@ -29,7 +29,7 @@ const People = () => {
             </div>
         </div>
 
-        <div className=' w-[20%] p-8'>
+        <div className=' md:w-[30%] p-4'>
             <p>Money is only a tool. It will take you whereever you wish but it will not replace you as the driver.</p>
 
             <div className='flex mt-6'>
@@ -41,7 +41,7 @@ const People = () => {
             </div>
         </div>
 
-        <div className=' w-[20%] p-8'>
+        <div className=' md:w-[30%] p-4'>
             <p>Money is only a tool. It will take you whereever you wish but it will not replace you as the driver.</p>
 
             <div className='flex mt-6'>
@@ -56,13 +56,13 @@ const People = () => {
 
     {/* images  */}
 
-    <div className='flex justify-center mt-20 md:gap-20'>
-        <img src={airbnb} alt=""  className='w-[10%]' />
+    <div className='sm: gap-4 flex justify-center mt-20 md:gap-20'>
+        <img src={airbnb} alt=""  className='sm: w-[60px] md:w-[10%]' />
         <img src={binance} alt=""
-        className='w-[10%]'
+        className='sm: w-[60px] md:w-[10%]'
          />
-        <img src={coinbase} alt="" className='w-[10%]'  />
-        <img src={dropbox} alt="" className='w-[10%]' />
+        <img src={coinbase} alt="" className='sm: w-[60px] md:w-[10%]'  />
+        <img src={dropbox} alt="" className='sm: w-[60px] md:w-[10%]' />
 
     </div>
     </>

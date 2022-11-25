@@ -26,7 +26,7 @@ const Business = () => {
       <div className='md:w-[30%]'>
       <h2 className='font-bold tracking-wide md:text-4xl'>You do the business, we will handle the money.</h2>
       <p className=' text-gray-400 mt-2'>with the right credit card, you can improve your financial life by building credit, earning rewards and saving money.But with hundreds of credit cards on the market. </p>
-      <button className='p-2 rounded-xl text-black bg-gradient-to-r from-cyan-500 to-blue-500 mt-4'>Get Started</button>
+      <button className='p-2 rounded-xl text-black bg-gradient-to-r from-cyan-400 to-cyan-800 mt-4'>Get Started</button>
       </div>
 
       {/* right section */}
